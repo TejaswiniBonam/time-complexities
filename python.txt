@@ -1,0 +1,6 @@
+sort() = O(N log N)
+del arr[index] = O(N) - worst case
+                = O(1) - best case # maybe where the index is the last n-1
+#Becuase if the index is 0 (worst case) del command will shift all the elements in the array by 1 unit to the left which means n times.
+remove(element) = O(N)
+#The remove() method searches the list linearly from the beginning to find the first occurrence of the specified element.
